@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharon Unnikrishnan Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem 1rem;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+        }
+
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .project {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        .project img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            padding: 0.8rem 2rem;
+            background: #2575fc;
+            border: none;
+            color: white;
+            font-size: 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sharon Unnikrishnan</h1>
+        <p>Business Transformation | Process Improvement | Operational Excellence</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>With over 15 years of experience in business transformation and operational excellence, I leverage tools like VBA, SQL, and Power BI to streamline processes, achieve cost savings, and enhance efficiency. I thrive in dynamic environments where I can make a tangible impact on organizational goals.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming: Python, SQL, VBA, PowerShell</li>
+            <li>Data Analysis: Power BI, Tableau</li>
+            <li>Automation: UiPath, Blue Prism, Power Automate</li>
+            <li>Cloud Platforms: Azure, GCP, AWS</li>
+            <li>Project Management: Agile, Scrum, PMP</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="https://via.placeholder.com/300" alt="Query Master Automation">
+                <h3>Query Master Automation</h3>
+                <p>Automated 67% of query volume using Blue Prism, saving 5 FTE efforts annually.</p>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/300" alt="Vendor Email Validator">
+                <h3>Vendor Email Validator</h3>
+                <p>Developed a PCF solution to validate vendor email domains, enhancing data security.</p>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/300" alt="Budget Tracking Tool">
+                <h3>Budget Tracking Tool</h3>
+                <p>Streamlined financial operations and improved reporting accuracy with PowerApps.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sharon Unnikrishnan. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
